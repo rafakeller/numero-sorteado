@@ -1,0 +1,15 @@
+@import url(./css/global.css);
+@import url(./css/main.css);
+@import url(./css/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap'); 
+
+:root{
+  --vermelho:#C4243C;
+  --bege-claro:#F0E3B6;
+  --bege:#F0CD85;
+  --branco:#F0F0F2;
+  --amerelo:#C39338;
+  --bege-escuro:#463600;
+}
+
+/* font-family: 'Poppins', sans-serif; */

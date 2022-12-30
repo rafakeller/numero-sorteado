@@ -1,0 +1,78 @@
+.content {
+  text-align: center;
+  color: var(--bege-escuro);
+}
+
+.titulo {
+  font-size: 4.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sorteio {
+  display: inline-block;
+  width: auto;
+  margin: 15px auto;
+}
+
+.sorteio-texto {
+  font-size: 1.7rem;
+  line-height: 65px;
+}
+.input {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 0px 0px 30px -10px var(--bege-escuro);
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.sortear {
+  margin: 30px auto 60px;
+}
+
+.botao-sortear {
+  border: transparent;
+  width: 23%;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--vermelho);
+  color: var(--branco);
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.resultado {
+  font-size: 1.7rem;
+}
+
+.numero-sorteado {
+  height: 5rem;
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin: 20px 0 60px 0;
+}
+
+.data-hora-texto {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.rodape {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.rodape p {
+  line-height: 140px;
+  margin-left: 20px;
+}
+
+.rodape strong{
+  font-weight: 700;
+  color: var(--vermelho);
+}

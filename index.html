@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Número sorteado</title>
 </head>
+
 <body>
-  <header><nav></nav></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <nav></nav>
+  </header>
+
+  <main class="main">
+
+    <section class="content">
+      <h1 class="titulo">Sorteio da Rifa de Ano Novo</h1>
+      <div class="sorteio">
+        <p class="sorteio-texto">Sortear <input type="number" class="input" id="input-quantidade"> número(s)</p>
+        <p class="sorteio-texto">entre <input type="number" class="input" id="menor-número"> e <input type="number" class="input" id="maior-número"></p>
+
+
+      </div>
+
+      <div class="sortear">
+        <button class="botao-sortear">Sortear</button>
+      </div>
+
+      <div class="resultado">
+        <p>O número sorteado foi:</p>
+        <div class="numero-sorteado"></div>
+
+        <div class="data-hora content">
+          <p>Data e Hora do sorteio:</p>
+          <div><p class="data-hora-texto">12/12/2022 ás 20:12:00</p></div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>Feito por <strong>Rafaela Keller</strong></p>
+  </footer>
 
   <script type="module" src="./main.js"></script>
 </body>
+
 </html>
