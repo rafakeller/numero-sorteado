@@ -1,6 +1,7 @@
 "use strict";
 
-import { mostrarSorteado } from "./mostrarSorteado.js";
+import { dataHora } from "../componentes/data-hora.js";
+
 
 export const gerarNumeroAleatorio = (quantidade, minimo, maximo) => {
   const num = quantidade.value;
@@ -15,7 +16,13 @@ export const gerarNumeroAleatorio = (quantidade, minimo, maximo) => {
 
     lista.push(numeroAleatorio);
   }
+  
+  
+  console.log(lista)
+  dataHora(lista);
+ 
 
-  mostrarSorteado(lista);
   lista.length = 0;
 };
+
+
