@@ -44,6 +44,7 @@
   color: var(--branco);
   border-radius: 50px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .resultado {
@@ -59,17 +60,15 @@
 
 .data-hora-texto {
   margin-top: 20px;
+  
   font-weight: 600;
 }
 
-.rodape {
-  height: 100vh;
-  box-sizing: border-box;
-}
 
 .rodape p {
-  line-height: 140px;
+  display: block;
   margin-left: 20px;
+ 
 }
 
 .rodape strong{
