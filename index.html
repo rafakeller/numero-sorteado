@@ -11,18 +11,15 @@
 </head>
 
 <body>
-  <header>
-    <nav></nav>
-  </header>
+  <header></header>
 
   <main class="main">
-
     <section class="content">
       <form action="" id="form">
         <h1 class="titulo">Sorteio da Rifa de Ano Novo</h1>
         <div class="sorteio">
-          <p class="sorteio-texto">Sortear <input type="number" class="input" id="input-quantidade"> número(s)</p>
-          <p class="sorteio-texto">entre <input type="number" class="input" id="menor-numero"> e <input type="number" class="input" id="maior-numero"></p>
+          <p class="sorteio-texto">Sortear <input type="number" class="input" id="input-quantidade" min="1" > número(s)</p>
+          <p class="sorteio-texto">entre <input type="number" class="input" id="menor-numero" min="1"> e <input type="number" class="input" id="maior-numero" min="0"></p>
         </div>
         <div class="sortear">
           <input type="submit" class="botao-sortear" id="botao"></input>
@@ -30,16 +27,18 @@
       </form>
 
       <div class="resultado" id="resultado-numero">
-        <!-- <p>O número sorteado foi:</p> -->
+        <p>O número sorteado foi:</p>
         <!-- <div class="numero-sorteado" id="numeroSorteado"></div> -->
-        
+
         <!-- <div class="data-hora content" id="dataHora">
           <p>Data e Hora do sorteio:</p>
           <div ><p class="data-hora-texto" ></p></div>
         </div> -->
       </div>
 
-
+     <footer class="rodape">
+      <p class="frase-rodape">Feito por <strong>Rafaela Keller</strong></p>
+     </footer>
 
     </section>
   </main>

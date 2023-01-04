@@ -1,0 +1,14 @@
+.frase-rodape{
+  bottom: 0;
+  height: auto;  
+  margin-left: 20px;
+  position: absolute;
+  text-align: left;
+  vertical-align: bottom; 
+  width: 100%;
+}
+
+.frase-rodape strong{
+  color: var(--vermelho);
+  font-weight: 700;
+}

@@ -1,77 +1,68 @@
 .content {
-  text-align: center;
   color: var(--bege-escuro);
+  min-height: 90vh;
+  position: relative;
+  text-align: center;
 }
 
 .titulo {
-  font-size: 4.3rem;
+  font-size: 4rem;
   font-weight: bold;
-  text-align: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 .sorteio {
   display: inline-block;
-  width: auto;
   margin: 15px auto;
+  width: auto;
 }
 
 .sorteio-texto {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 65px;
 }
 .input {
-  width: 70px;
-  height: 40px;
-  border-radius: 5px;
   border: transparent;
+  border-radius: 5px;
   box-shadow: 0px 0px 30px -10px var(--bege-escuro);
   font-size: 1.7rem;
+  height: 40px;
   text-align: center;
+  width: 70px;
 }
 
 .sortear {
-  margin: 30px auto 60px;
+  margin-bottom: 50px;
 }
 
 .botao-sortear {
-  border: transparent;
-  width: 23%;
-  padding: 15px 0;
-  font-size: 1.5rem;
-  font-weight: bold;
   background-color: var(--vermelho);
-  color: var(--branco);
+  border: transparent;
   border-radius: 50px;
   box-sizing: border-box;
+  color: var(--branco);
   cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 0;
+  width: 23%;
 }
 
 .resultado {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .numero-sorteado {
-  height: 5rem;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  margin: 20px 0 60px 0;
+  height: 5rem;
+  margin: 20px 0 50px 0;
 }
-
+.paragrafo-time {
+  font-weight: 200;
+  margin-bottom: 15px;
+}
 .data-hora-texto {
-  margin-top: 20px;
-  
-  font-weight: 600;
-}
-
-
-.rodape p {
-  display: block;
-  margin-left: 20px;
- 
-}
-
-.rodape strong{
   font-weight: 700;
-  color: var(--vermelho);
 }

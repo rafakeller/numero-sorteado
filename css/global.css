@@ -1,18 +1,14 @@
-html{
-  width: 100vw;
-  height: 100vh;
-
-}
-
-body{
+body {
   background-color: var(--bege-claro);
-  font-family: 'Poppins', sans-serif;
- 
-
-
+  background-image: url(/img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  
 }
 
-footer{
-  height: 10%;
-  vertical-align: bottom;
+@media ( max-width:1000px) {
+  body{
+    background-image: none;
+  }
 }
